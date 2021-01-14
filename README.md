@@ -2,7 +2,7 @@
 
 Load the modules into FHEM:
 
-    update all https://raw.githubusercontent.com/matzefisi/fhem-70_NIBE/devio/controls_70_NIBE.txt
+    update all https://raw.githubusercontent.com/fhem/Nibe/devio/controls_70_NIBE.txt
 Restart FHEM:
     
     shutdown restart
@@ -23,7 +23,7 @@ Restart FHEM:
 
 'nibegw' is an application that read telegrams from a serial port (which requires an RS-485 adapter), sends ACK/NAK to the heat pump and relays untouched telegrams via UDP packets. The FHEM module will listen to a UDP port and parse register data from UDP telegrams.
 
-Run 'nibegw' like described here https://github.com/openhab/openhab2-addons/blob/master/addons/binding/org.openhab.binding.nibeheatpump/README.md
+Run 'nibegw' like described here https://www.openhab.org/addons/bindings/nibeheatpump/
 
 Define FHEM modules like
 
