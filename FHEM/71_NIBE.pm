@@ -562,6 +562,7 @@ sub NIBE_CheckSetState($$$) {
     # 2² - brine pump
     # 2³ - shuttle valve, climate system/water heater
     my %status = (
+        0  => "inactive",
         2  => "standby",
         6  => "start/stop heating",
         7  => "heating operation",
