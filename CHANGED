@@ -1,3 +1,4 @@
+2021-07-21 - rename state "inactive" to "idle"
 2021-07-01 - add state "inactive"
 2021-07-01 - setup github workflow
 # changes are not tracked here, see Git history
